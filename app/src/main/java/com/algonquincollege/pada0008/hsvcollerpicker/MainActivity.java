@@ -15,6 +15,14 @@ import com.algonquincollege.pada0008.hsvcollerpicker.Model.HSVColorPicker;
 import java.util.Observable;
 import java.util.Observer;
 
+
+/**
+ *
+ * Main Activity
+ * Created by janki pada0005
+ */
+
+
 public class MainActivity extends Activity implements Observer, SeekBar.OnSeekBarChangeListener {
 
 
@@ -174,7 +182,6 @@ public class MainActivity extends Activity implements Observer, SeekBar.OnSeekBa
     }
 
 
-    //BUTTON METHODS IMPLEMENTATION
 
     public void onColorButtonClick(View view) {
         switch (view.getId()){
